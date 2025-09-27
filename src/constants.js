@@ -23,7 +23,6 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 // import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Education Section Logo's
 import college from './assets/education_logo/college.jpg';
@@ -73,7 +72,6 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       // { name: 'TypeScript', logo: typescriptLogo },
     ],
