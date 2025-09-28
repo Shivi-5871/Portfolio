@@ -52,7 +52,6 @@ const Experience = () => {
             {/* Experience Card */}
             <div className="w-full sm:max-w-md p-6 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_rgba(13,148,136,0.15)] hover:shadow-[0_0_25px_rgba(13,148,136,0.25)] transform transition-transform duration-300 hover:scale-105">
 
-
               <div className="flex items-center space-x-4">
 
                 {/* Company Logo */}
