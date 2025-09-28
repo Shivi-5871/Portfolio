@@ -120,7 +120,7 @@ export const SkillsInfo = [
       img: college,
       school: "Moradabad Institute Of Technology, Moradabad",
       date: "Sept 2021 - July 2025",
-      grade: "8.72 CGPA",
+      grade: "8.27 CGPA",
       desc: "I have completed my Bachelor's degree (B.Tech) in Computer Science and Engineering from Moradabad Institute Of Technology, Moradabad. During my time at MIT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Moradabad Institute Of Technology has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Bachelor of Technology - B.Tech",
     },
