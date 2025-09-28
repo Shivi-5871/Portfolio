@@ -8,7 +8,6 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setisScrolled] = useState(false);
 
-
   //Scroll and navbar bg change
   useEffect(() => {
     const handleScroll = () => {
