@@ -173,7 +173,7 @@ export const SkillsInfo = [
       // image: githubdetLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shivi-5871/Book-N-Buy",
-      webapp: "",
+      webapp: "https://book-n-buy.vercel.app",
     },
     {
       id: 3,
