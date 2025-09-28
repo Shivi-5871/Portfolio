@@ -11,7 +11,7 @@ const Experience = () => {
       {/* Section Header */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
-        <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
+        <div className="w-32 h-1 bg-teal-900 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           A collection of my work experience and the roles I have taken in
           various organizations
@@ -37,7 +37,7 @@ const Experience = () => {
               className="
                 hidden sm:flex
                 absolute left-1/2 transform -translate-x-1/2
-                bg-gray-400 border-4 border-[#8245ec]
+                bg-gray-400 border-4 border-[#134E4A]
                 w-12 h-12 sm:w-16 sm:h-16 
                 rounded-full justify-center items-center z-10
               "
@@ -50,7 +50,9 @@ const Experience = () => {
             </div>
 
             {/* Experience Card */}
-            <div className="w-full sm:max-w-md p-6 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] transform transition-transform duration-300 hover:scale-105">
+            <div className="w-full sm:max-w-md p-6 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_rgba(13,148,136,0.15)] hover:shadow-[0_0_25px_rgba(13,148,136,0.25)] transform transition-transform duration-300 hover:scale-105">
+
+
               <div className="flex items-center space-x-4">
 
                 {/* Company Logo */}

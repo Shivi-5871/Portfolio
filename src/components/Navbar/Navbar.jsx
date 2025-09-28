@@ -51,7 +51,7 @@ const Navbar = () => {
         {/* NAME */}
         <div className='text-lg font-semibold cursor-pointer'>
           <span className='text-white'>Shivi</span>
-          <span className='text-[#8245ec]'> </span>
+          <span className='text-[#134E4A]'> </span>
           <span className='text-white'>Agarwal</span>
         </div>
       
@@ -59,8 +59,8 @@ const Navbar = () => {
       {/* MENUITEMS */}
       <ul className='hidden md:flex space-x-8 text-gray-300'>
         {menuItems.map((item) => (
-          <li key={item.id} className={`cursor-pointer hover:text-[#8245ec] ${
-            activeSection === item.id ? "text-[#8245ec]" : ""
+          <li key={item.id} className={`cursor-pointer hover:text-[#3bb9b0] ${
+            activeSection === item.id ? "text-[#2d928b]" : ""
           }`}>
             <button onClick={() => handleMenuItemClick(item.id)}>{item.label}
             </button>
@@ -75,7 +75,7 @@ const Navbar = () => {
            href="https://github.com/Shivi-5871"
            target="_blank"
            rel="noopener noreferrer"
-           className='text-gray-300 hover:text-[#8245ec]'>
+           className='text-gray-300 hover:text-[#134E4A]'>
             <FaGithub size={24} />
            </a>
           
@@ -83,7 +83,7 @@ const Navbar = () => {
            href="https://www.linkedin.com/in/shivi-agarwal-02018b228"
            target="_blank"
            rel="noopener noreferrer"
-           className='text-gray-300 hover:text-[#8245ec]'>
+           className='text-gray-300 hover:text-[#134E4A]'>
             <FaLinkedin size={24} />
            </a>
 
@@ -93,10 +93,10 @@ const Navbar = () => {
         <div className="md:hidden">
           {
             isMenuOpen ? (
-              <FiX className="text-3xl text-[#8245ec] cursor-pointer"
+              <FiX className="text-3xl text-[#134E4A] cursor-pointer"
               onClick={() => setIsMenuOpen(false)} />
             ) : (
-              <FiMenu className="text-3xl text-[#8245ec] cursor-pointer"
+              <FiMenu className="text-3xl text-[#134E4A] cursor-pointer"
               onClick={() => setIsMenuOpen(true)} />
             )
           }
@@ -109,7 +109,7 @@ const Navbar = () => {
           <ul className='flex flex-col items-center space-y-4 py-4 text-gray-300'>
             {menuItems.map((item) => (
               <li key={item.id} className={`cursor-pointer hover:text-white 
-                ${ activeSection === item.id ? "text-[#8245ec]" : ""
+                ${ activeSection === item.id ? "text-[#134E4A]" : ""
               }`}>
                 <button onClick={() => handleMenuItemClick(item.id)}>{item.label}</button>
               </li>

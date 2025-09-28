@@ -15,7 +15,7 @@ const Footer = () => {
       
       <div className="container mx-auto text-center">
         
-        <h2 className="text-xl font-semibold text-purple-500">Shivi Agarwal</h2>
+        <h2 className="text-xl font-semibold text-teal-800">Shivi Agarwal</h2>
 
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
           {[
@@ -28,7 +28,7 @@ const Footer = () => {
             <button
               key={index}
               onClick={() => handleScroll(item.id)}
-              className="hover:text-purple-500 text-sm sm:text-base my-1"
+              className="hover:text-teal-600 text-sm sm:text-base my-1"
             >
               {item.name}
             </button>
@@ -46,7 +46,7 @@ const Footer = () => {
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
+            className="text-xl hover:text-teal-900 transition-transform transform hover:scale-110"
           >
             {item.icon}
           </a>
