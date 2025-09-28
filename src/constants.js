@@ -32,9 +32,9 @@ import school from './assets/education_logo/school.jpg';
 import explorinlogo from './assets/experience/explorin.png';
 
 // Project Section Logo's
-// import githubdetLogo from './assets/work_logo/github_det.png';
-// import csprepLogo from './assets/work_logo/cs_prep.png';
-// import movierecLogo from './assets/work_logo/movie_rec.png';
+import pixieTalk from './assets/work_logo/pixieTalk.png';
+import chatApp from './assets/work_logo/chatApp.png';
+import bookNbuy from './assets/work_logo/bookNbuy.png';
 // import taskremLogo from './assets/work_logo/task_rem.png';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
@@ -150,7 +150,7 @@ export const SkillsInfo = [
       title: "Pixie Talk - AI-Powered Content Creation",
       description:
         "Pixie Talk is an AI-powered interactive storytelling platform that transforms your ideas into animated stories. It integrates story generation, voice narration, image creation, and video animation into one seamless pipeline.",
-      // image: csprepLogo,
+      image: pixieTalk,
       tags: ["React JS", "Python", "MongoDB", "Gemini", "ElevenLabs", "AI Video API"],
       github: "https://github.com/Shivi-5871/Pixie-Talk",
       webapp: "https://pixie-talk.vercel.app/",
@@ -160,7 +160,7 @@ export const SkillsInfo = [
       title: "💬 Chat Application",
       description:
         "A real-time Chat Application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) with Cloudinary integration for profile picture uploads. This app allows users to sign up, log in, create groups, search users, and chat in real time.",
-      // image: taskremLogo,
+      image: chatApp,
       tags: ["React JS", "Node JS", "Express", "MongoDB", "Socket.io", "Cloudinary"],
       github: "https://github.com/Shivi-5871/Chat-Application",
       webapp: "https://chat-application-reactproject.vercel.app/",
@@ -170,29 +170,29 @@ export const SkillsInfo = [
       title: "Book N Buy - An Online Book Store",
       description:
         "Book N Buy is a simple online bookstore project built using HTML, CSS, and JavaScript. It provides a smooth shopping experience with features like book browsing, offers, blogs, cart management, and a user-friendly login system.",
-      // image: githubdetLogo,
+      image: bookNbuy,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shivi-5871/Book-N-Buy",
       webapp: "https://book-n-buy.vercel.app",
     },
-    {
-      id: 3,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      // image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "",
-      webapp: "",
-    },
-    {
-      id: 4,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      // image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "",
-      webapp: "",
-    },
+    // {
+    //   id: 3,
+    //   title: "Movie Recommendation App",
+    //   description:
+    //     "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    //   // image: movierecLogo,
+    //   tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    //   github: "",
+    //   webapp: "",
+    // },
+    // {
+    //   id: 4,
+    //   title: "GitHub Profile Detective",
+    //   description:
+    //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+    //   // image: githubdetLogo,
+    //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    //   github: "",
+    //   webapp: "",
+    // },
   ];  
