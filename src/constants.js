@@ -36,7 +36,7 @@ import pixieTalk from './assets/work_logo/pixieTalk.png';
 import chatApp from './assets/work_logo/chatApp.png';
 import bookNbuy from './assets/work_logo/bookNbuy.png';
 import blogPost from './assets/work_logo/blogPost.png';
-// import npmLogo from './assets/work_logo/npm.png';
+import termix from './assets/work_logo/termix.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -184,6 +184,16 @@ export const SkillsInfo = [
       tags: ["Node.js", "Express ", "EJS", "MongoDB (Atlas)", "Mongoose", "JWT "],
       github: "https://github.com/Shivi-5871/Blog-Post",
       webapp: "https://blog-post-kwpi.onrender.com",
+    },
+    {
+      id: 4,
+      title: "Termix",
+      description:
+        "A blog post website where users can register, log in, create, edit, and delete their blog posts. The application uses Node.js and Express for the backend, EJS for templating, and MongoDB (Atlas) with Mongoose for data storage. It also implements JWT for secure authentication.",
+      image: termix,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Shivi-5871/Termix",
+      webapp: "https://termix-roan.vercel.app/",
     },
     // {
     //   id: 3,
