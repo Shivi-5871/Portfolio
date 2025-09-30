@@ -177,16 +177,6 @@ export const SkillsInfo = [
     },
     {
       id: 3,
-      title: "Blog Post Website",
-      description:
-        "A blog post website where users can register, log in, create, edit, and delete their blog posts. The application uses Node.js and Express for the backend, EJS for templating, and MongoDB (Atlas) with Mongoose for data storage. It also implements JWT for secure authentication.",
-      image: blogPost,
-      tags: ["Node.js", "Express ", "EJS", "MongoDB (Atlas)", "Mongoose", "JWT "],
-      github: "https://github.com/Shivi-5871/Blog-Post",
-      webapp: "https://blog-post-kwpi.onrender.com",
-    },
-    {
-      id: 4,
       title: "Termix",
       description:
         "A blog post website where users can register, log in, create, edit, and delete their blog posts. The application uses Node.js and Express for the backend, EJS for templating, and MongoDB (Atlas) with Mongoose for data storage. It also implements JWT for secure authentication.",
@@ -194,6 +184,17 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shivi-5871/Termix",
       webapp: "https://termix-roan.vercel.app/",
+      
+    },
+    {
+      id: 4,
+      title: "Blog Post Website",
+      description:
+        "A blog post website where users can register, log in, create, edit, and delete their blog posts. The application uses Node.js and Express for the backend, EJS for templating, and MongoDB (Atlas) with Mongoose for data storage. It also implements JWT for secure authentication.",
+      image: blogPost,
+      tags: ["Node.js", "Express ", "EJS", "MongoDB (Atlas)", "Mongoose", "JWT "],
+      github: "https://github.com/Shivi-5871/Blog-Post",
+      webapp: "https://blog-post-kwpi.onrender.com",
     },
     // {
     //   id: 3,
