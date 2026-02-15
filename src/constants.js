@@ -196,6 +196,15 @@ export const SkillsInfo = [
       github: "https://github.com/Shivi-5871/Blog-Post",
       webapp: "https://blog-post-kwpi.onrender.com",
     },
+    {
+      id: 5,
+      title: "Quizz App",
+      description:
+        "A simple quiz application built using HTML, CSS, and JavaScript. It allows users to test their knowledge on various topics with multiple-choice questions. The app provides instant feedback on answers and keeps track of the user's score throughout the quiz.",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Shivi-5871/Quizz-App",
+      webapp: "https://quizz-app-five-ashen.vercel.app",
+    },
     // {
     //   id: 3,
     //   title: "Movie Recommendation App",
