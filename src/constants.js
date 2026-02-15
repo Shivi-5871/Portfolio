@@ -37,6 +37,7 @@ import chatApp from './assets/work_logo/chatApp.png';
 import bookNbuy from './assets/work_logo/bookNbuy.png';
 import blogPost from './assets/work_logo/blogPost.png';
 import termix from './assets/work_logo/termix.png';
+import quizApp from './assets/work_logo/quizApp.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -201,6 +202,7 @@ export const SkillsInfo = [
       title: "Quizz App",
       description:
         "A simple quiz application built using HTML, CSS, and JavaScript. It allows users to test their knowledge on various topics with multiple-choice questions. The app provides instant feedback on answers and keeps track of the user's score throughout the quiz.",
+      image: quizApp,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shivi-5871/Quizz-App",
       webapp: "https://quizz-app-five-ashen.vercel.app",
