@@ -180,7 +180,7 @@ export const SkillsInfo = [
       id: 3,
       title: "Termix",
       description:
-        "A blog post website where users can register, log in, create, edit, and delete their blog posts. The application uses Node.js and Express for the backend, EJS for templating, and MongoDB (Atlas) with Mongoose for data storage. It also implements JWT for secure authentication.",
+        "A terminal-style portfolio website built with HTML, CSS, and JavaScript. It provides an interactive command-line interface where users can navigate through my profile, projects, skills, and contact information.",
       image: termix,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shivi-5871/Termix",
