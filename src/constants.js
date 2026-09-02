@@ -14,14 +14,12 @@ import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
-// import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
-// import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Education Section Logo's
@@ -38,7 +36,7 @@ import bookNbuy from './assets/work_logo/bookNbuy.png';
 import blogPost from './assets/work_logo/blogPost.png';
 import termix from './assets/work_logo/termix.png';
 import quizApp from './assets/work_logo/quizApp.png';
-// import webverLogo from './assets/work_logo/web_dig.png';
+import mentalHealth from './assets/work_logo/mentalHealth.png';
 // import cmLogo from './assets/work_logo/cm.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
 // import removebgLogo from './assets/work_logo/remove_bg.png';
@@ -207,13 +205,23 @@ export const SkillsInfo = [
       github: "https://github.com/Shivi-5871/Quizz-App",
       webapp: "https://quizz-app-five-ashen.vercel.app",
     },
+    {
+      id: 6,
+      title: "Mental Health Score Prediction",
+      description:
+        "A machine learning project that predicts mental health scores based on various input features. The model is trained on a dataset containing mental health-related information and uses algorithms to provide predictions that can help in assessing an individual's mental well-being.",
+      image: mentalHealth,
+      tags: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "HTML", "CSS", "JavaScript", "Jupyter Notebook"],
+      github: "https://github.com/Shivi-5871/Mental-Health-Score-Predictor",
+      webapp: "https://mental-health-score-predictor-1-tb2u.onrender.com",
+    },
     // {
-    //   id: 3,
-    //   title: "Movie Recommendation App",
+    //   id: 4,
+    //   title: "GitHub Profile Detective",
     //   description:
-    //     "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    //   // image: movierecLogo,
-    //   tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+    //   // image: githubdetLogo,
+    //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
     //   github: "",
     //   webapp: "",
     // },
