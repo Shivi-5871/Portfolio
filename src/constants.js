@@ -223,8 +223,8 @@ export const SkillsInfo = [
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
       image: githubProfile,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github-profile-detective-peach.vercel.app/",
-      webapp: "https://vercel.com/shivi-agarwals-projects/github-profile-detective",
+      github: "https://github.com/Shivi-5871/Github-Profile-Detective",
+      webapp: "https://github-profile-detective-peach.vercel.app/",
     },
     // {
     //   id: 4,
