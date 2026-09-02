@@ -3,6 +3,8 @@ import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
+import mlLogo from './assets/tech_logo/ml.png';
+import numpyLogo from './assets/tech_logo/numpy.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
@@ -50,6 +52,8 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Machine Learning', logo: mlLogo },
+      { name: 'NumPy', logo: numpyLogo },
     ],
   },
   {
