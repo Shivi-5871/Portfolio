@@ -12,7 +12,6 @@ import mongodbLogo from './assets/tech_logo/mongodb.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import pythonLogo from './assets/tech_logo/python.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -49,7 +48,6 @@ export const SkillsInfo = [
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
