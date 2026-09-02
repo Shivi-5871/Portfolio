@@ -37,7 +37,7 @@ import blogPost from './assets/work_logo/blogPost.png';
 import termix from './assets/work_logo/termix.png';
 import quizApp from './assets/work_logo/quizApp.png';
 import mentalHealth from './assets/work_logo/mentalHealth.png';
-// import cmLogo from './assets/work_logo/cm.png';
+import githubProfile from './assets/work_logo/githubProfile.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
 // import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -166,13 +166,13 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "Book N Buy - An Online Book Store",
+      title: "Mental Health Score Prediction",
       description:
-        "Book N Buy is a simple online bookstore project built using HTML, CSS, and JavaScript. It provides a smooth shopping experience with features like book browsing, offers, blogs, cart management, and a user-friendly login system.",
-      image: bookNbuy,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Shivi-5871/Book-N-Buy",
-      webapp: "https://book-n-buy.vercel.app",
+        "A machine learning project that predicts mental health scores based on various input features. The model is trained on a dataset containing mental health-related information and uses algorithms to provide predictions that can help in assessing an individual's mental well-being.",
+      image: mentalHealth,
+      tags: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "HTML", "CSS", "JavaScript", "Jupyter Notebook"],
+      github: "https://github.com/Shivi-5871/Mental-Health-Score-Predictor",
+      webapp: "https://mental-health-score-predictor-1-tb2u.onrender.com",
     },
     {
       id: 3,
@@ -187,6 +187,16 @@ export const SkillsInfo = [
     },
     {
       id: 4,
+      title: "Book N Buy - An Online Book Store",
+      description:
+        "Book N Buy is a simple online bookstore project built using HTML, CSS, and JavaScript. It provides a smooth shopping experience with features like book browsing, offers, blogs, cart management, and a user-friendly login system.",
+      image: bookNbuy,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Shivi-5871/Book-N-Buy",
+      webapp: "https://book-n-buy.vercel.app",
+    },
+    {
+      id: 5,
       title: "Blog Post Website",
       description:
         "A blog post website where users can register, log in, create, edit, and delete their blog posts. The application uses Node.js and Express for the backend, EJS for templating, and MongoDB (Atlas) with Mongoose for data storage. It also implements JWT for secure authentication.",
@@ -196,7 +206,7 @@ export const SkillsInfo = [
       webapp: "https://blog-post-kwpi.onrender.com",
     },
     {
-      id: 5,
+      id: 6,
       title: "Quizz App",
       description:
         "A simple quiz application built using HTML, CSS, and JavaScript. It allows users to test their knowledge on various topics with multiple-choice questions. The app provides instant feedback on answers and keeps track of the user's score throughout the quiz.",
@@ -205,26 +215,17 @@ export const SkillsInfo = [
       github: "https://github.com/Shivi-5871/Quizz-App",
       webapp: "https://quizz-app-five-ashen.vercel.app",
     },
+    
     {
-      id: 6,
-      title: "Mental Health Score Prediction",
+      id: 7,
+      title: "GitHub Profile Detective",
       description:
-        "A machine learning project that predicts mental health scores based on various input features. The model is trained on a dataset containing mental health-related information and uses algorithms to provide predictions that can help in assessing an individual's mental well-being.",
-      image: mentalHealth,
-      tags: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "HTML", "CSS", "JavaScript", "Jupyter Notebook"],
-      github: "https://github.com/Shivi-5871/Mental-Health-Score-Predictor",
-      webapp: "https://mental-health-score-predictor-1-tb2u.onrender.com",
+        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+      image: githubProfile,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      github: "https://vercel.com/shivi-agarwals-projects/github-profile-detective",
+      webapp: "https://github-profile-detective-peach.vercel.app/",
     },
-    // {
-    //   id: 4,
-    //   title: "GitHub Profile Detective",
-    //   description:
-    //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    //   // image: githubdetLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    //   github: "",
-    //   webapp: "",
-    // },
     // {
     //   id: 4,
     //   title: "GitHub Profile Detective",
