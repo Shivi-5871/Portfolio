@@ -188,7 +188,7 @@ export const SkillsInfo = [
       title: "STAYSENSE-AI-NYC-AirBNB-Room-Type-Predictor",
       description:
           "STAYSENSE AI is a machine learning web application that predicts Airbnb room types in New York City using a trained Scikit-learn model and FastAPI.",
-      image: roomPredictor.png,
+      image: roomPredictor,
       tags: ["HTML", "CSS", "JavaScript", "Machine Learning", "seaborn", "pandas", "numpy", "matplotlib", "scikit-learn", "Python", "FastAPI"],
       github: "https://github.com/Shivi-5871/STAYSENSE-AI-NYC-AirBNB-Room-Type-Predictor",
       webapp: "https://staysense-ai-nyc-airbnb-room-type-8lkc.onrender.com/",
