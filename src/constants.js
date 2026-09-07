@@ -38,9 +38,7 @@ import termix from './assets/work_logo/termix.png';
 import quizApp from './assets/work_logo/quizApp.png';
 import mentalHealth from './assets/work_logo/mentalHealth.png';
 import githubProfile from './assets/work_logo/githubProfile.png';
-// import imagesearchLogo from './assets/work_logo/image_search.png';
-// import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import roomPredictor from './assets/work_logo/roomPredictor.png';
 
 export const SkillsInfo = [
   {
@@ -187,6 +185,16 @@ export const SkillsInfo = [
     },
     {
       id: 4,
+      title: "STAYSENSE-AI-NYC-AirBNB-Room-Type-Predictor",
+      description:
+          "STAYSENSE AI is a machine learning web application that predicts Airbnb room types in New York City using a trained Scikit-learn model and FastAPI.",
+      image: roomPredictor.png,
+      tags: ["HTML", "CSS", "JavaScript", "Machine Learning", "seaborn", "pandas", "numpy", "matplotlib", "scikit-learn", "Python", "FastAPI"],
+      github: "https://github.com/Shivi-5871/STAYSENSE-AI-NYC-AirBNB-Room-Type-Predictor",
+      webapp: "https://staysense-ai-nyc-airbnb-room-type-8lkc.onrender.com/",
+    },
+    {
+      id: 5,
       title: "Book N Buy - An Online Book Store",
       description:
         "Book N Buy is a simple online bookstore project built using HTML, CSS, and JavaScript. It provides a smooth shopping experience with features like book browsing, offers, blogs, cart management, and a user-friendly login system.",
@@ -196,7 +204,7 @@ export const SkillsInfo = [
       webapp: "https://book-n-buy.vercel.app",
     },
     {
-      id: 5,
+      id: 6,
       title: "Blog Post Website",
       description:
         "A blog post website where users can register, log in, create, edit, and delete their blog posts. The application uses Node.js and Express for the backend, EJS for templating, and MongoDB (Atlas) with Mongoose for data storage. It also implements JWT for secure authentication.",
@@ -206,7 +214,7 @@ export const SkillsInfo = [
       webapp: "https://blog-post-kwpi.onrender.com",
     },
     {
-      id: 6,
+      id: 7,
       title: "Quizz App",
       description:
         "A simple quiz application built using HTML, CSS, and JavaScript. It allows users to test their knowledge on various topics with multiple-choice questions. The app provides instant feedback on answers and keeps track of the user's score throughout the quiz.",
@@ -217,7 +225,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 7,
+      id: 8,
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -226,6 +234,7 @@ export const SkillsInfo = [
       github: "https://github.com/Shivi-5871/Github-Profile-Detective",
       webapp: "https://github-profile-detective-peach.vercel.app/",
     },
+    
     // {
     //   id: 4,
     //   title: "GitHub Profile Detective",
